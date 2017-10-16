@@ -1,15 +1,16 @@
+package ficherosTexto;
 import java.io.*;
 
 public class LeerFichTextBuf {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String nombre = "C:\\Users\\21650521\\eclipse-workspace\\Ficheros\\fichero2.txt";
+		//String nombre = "C:\\Users\\21650521\\eclipse-workspace\\Ficheros\\fichero2.txt";
 		
 		BufferedReader br = null;
 		
 		try {
-			br = new BufferedReader(new FileReader(nombre));
+			br = new BufferedReader(new FileReader("prueba.txt"));
 			
 			String linea = null;
 			//En cada iteracion le decimos al while lo que tiene que ir mostrando mientras no se cumpla la condicion
