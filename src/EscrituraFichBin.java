@@ -1,5 +1,9 @@
 import java.io.*;
 
+/**
+ * @author Javier
+ *
+ */
 public class EscrituraFichBin {
 
 	public static void main(String[] args) {
